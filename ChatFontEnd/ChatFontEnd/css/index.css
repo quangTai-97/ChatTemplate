@@ -1,0 +1,296 @@
+@font-face{
+  font-family: "AvenirNext-Medium";
+  src: url("font/AvenirNextFont.ttf") format("truetype");
+}
+
+/* ========================MENU============================================== */
+
+#menu {
+  position: absolute;
+  width: 101px;
+  height: 1024px;
+  top: 0px;
+  overflow: visible;
+}
+.Rectangle_b {
+  filter: drop-shadow(0px 2px 40px rgba(16, 27, 79, 0.2));
+  position: absolute;
+  overflow: visible;
+  width: 221px;
+  height: 1144px;
+  left: 0px;
+  top: 0px;
+}
+#Rectangle_b {
+  fill: rgba(255, 255, 255, 1);
+}
+#L {
+  opacity: 0.2;
+  left: 2.5rem;
+  position: absolute;
+  overflow: visible;
+  width: 15px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: AvenirNext-DemiBold;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(77, 104, 193, 1);
+}
+#Offers {
+  left: 0px;
+  top: 70px;
+  position: absolute;
+  overflow: visible;
+  width: 6rem;
+  white-space: nowrap;
+  text-align: center;
+  font-family: AvenirNext-Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: rgba(155, 155, 155, 1);
+}
+#Page_1 {
+  position: absolute;
+  width: 34.256px;
+  height: 29.48px;
+  left: 2rem;
+  top: 16.609px;
+  overflow: visible;
+}
+#Fill_1_cf {
+  fill: rgba(255, 255, 255, 1);
+}
+.Fill_1_cf {
+  overflow: visible;
+  position: absolute;
+  width: 34.256px;
+  height: 29.48px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Fill_4 {
+  fill: rgba(77, 104, 193, 1);
+}
+.Fill_4 {
+  overflow: visible;
+  position: absolute;
+  width: 3.766px;
+  height: 3.729px;
+  left: 7.322px;
+  top: 9.845px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Fill_6 {
+  fill: rgba(77, 104, 193, 1);
+}
+.Fill_6 {
+  overflow: visible;
+  position: absolute;
+  width: 3.766px;
+  height: 3.729px;
+  left: 15.245px;
+  top: 9.845px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Fill_8 {
+  fill: rgba(77, 104, 193, 1);
+}
+.Fill_8 {
+  overflow: visible;
+  position: absolute;
+  width: 3.766px;
+  height: 3.729px;
+  left: 23.168px;
+  top: 9.845px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+
+#Oval_cm {
+  opacity: 0.7;
+  fill: rgba(16, 27, 79, 0.51);
+}
+.Oval_cm {
+  position: absolute;
+  overflow: visible;
+  width: 34.34px;
+  height: 34px;
+  left: 31.546px;
+  top: 13px;
+}
+
+#Page_1_co {
+  position: absolute;
+  width: 18.064px;
+  height: 14.681px;
+  left: 39.627px;
+  top: 22.904px;
+  overflow: visible;
+}
+#Fill_4_cp {
+  fill: rgba(237, 239, 248, 1);
+}
+.Fill_4_cp {
+  overflow: visible;
+  position: absolute;
+  width: 18.064px;
+  height: 14.681px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.navbarSup{
+  margin-top: 5.7rem;
+}
+.navbarSup2{
+  margin-top: 4.2rem;
+}
+.navbarHeader{
+  margin-top: 1.5rem;
+}
+#Rectangle {
+  opacity: 0.1;
+  fill: rgba(77, 104, 193, 1);
+
+  width: 60.6px;
+  height: 60px;
+}
+.Rectangle {
+  position: absolute;
+  /* overflow: visible; */
+  width: 60.6px;
+  height: 60px;
+  left: 1.15rem;
+  top: 0px;
+  border-radius: 9px;
+}
+.navbar a:hover .Rectangle #Rectangle{
+  opacity: 1;
+  fill: #1fca74;
+}
+.navbar a:hover .Combined_Shape #Combined_Shape{
+  opacity: 1;
+  fill: #fff;
+}
+.navbar a:hover  #L{
+  opacity: 1;
+  color: #fff;
+}
+#Combined_Shape {
+  opacity: 0.7;
+  fill: rgba(16, 27, 79, 0.51);
+}
+.Combined_Shape {
+  overflow: visible;
+  position: absolute;
+  width: 34.14px;
+  height: 32.81px;
+  left: 32.157px;
+  top: 13.109px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.activeShape .Rectangle #Rectangle{
+  opacity: 1;
+  fill: #1fca74;
+}
+.activeIcon{
+  opacity: 1;
+  fill: #fff;
+}
+
+/* ========================TAPNAV============================================== */
+#tap_nav {
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+
+  top: 0px;
+  overflow: visible;
+}
+#Rectangle_3 {
+  fill: rgba(31,202,116,1);
+}
+.Rectangle_3 {
+  position: absolute;
+  overflow: visible;
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+#Oval_Copy_2_by {
+  filter: drop-shadow(0px 6px 8px rgba(16, 27, 79, 0.204));
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 906px;
+  top: 30px;
+  overflow: visible;
+}
+#Lottie_Oliver {
+  left: 966px;
+  top: 37.5px;
+  position: absolute;
+  overflow: visible;
+  width: 98px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: AvenirNext-Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(255,255,255,1);
+}
+#Homepage {
+  left: 749px;
+  top: 37.5px;
+  position: absolute;
+  overflow: visible;
+  width: 89px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: AvenirNext-Medium;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(255,255,255,1);
+}
+#Combined_Shape_Copy {
+  fill: rgba(16,76,45,1);
+}
+.Combined_Shape_Copy {
+  overflow: visible;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  transform: translate(0px, 0px) matrix(1,0,0,1,1102.0711,43.9289) rotate(-45deg);
+  transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+#Line {
+  opacity: 0.2;
+  fill: transparent;
+  stroke: rgba(16,76,45,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  shape-rendering: auto;
+}
+.Line {
+  overflow: visible;
+  position: absolute;
+  width: 1px;
+  height: 40.459px;
+  left: 874.5px;
+  top: 29.5px;
+  transform: matrix(1,0,0,1,0,0);
+}
+
+
