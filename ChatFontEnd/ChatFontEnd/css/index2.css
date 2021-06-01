@@ -59,10 +59,27 @@
   .imgShape{
     position: absolute;
     overflow: visible;
+    top: 10%;
+    margin: 20px 0 0 20px;
   }
-  .imgIcon{
+  .Combined_Shape{
     position: absolute;
     overflow: visible;
+     left: 33.5%;
+     top: 13.3%;
   }
-  
+  #Combined_Shape
+  {
+    opacity: 0.7;
+    fill: #101b4f82;
+  }
+  .item_second a:hover .imgShape{
+    background-color: #28da81;
+    border-radius: 9px;
+  }
+  .item_second a:hover .Combined_Shape #Combined_Shape {
+    opacity: 1;
+    fill: #fff;
+  }
+
 
