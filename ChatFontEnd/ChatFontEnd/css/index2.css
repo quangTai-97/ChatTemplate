@@ -1,85 +1,97 @@
-@font-face{
-    font-family: "AvenirNext-Bold";
-    src: url("font/Avenir_Next/AvenirNextLTPro-Bold.otf") format("truetype");
-  }
+@font-face {
+  font-family: "AvenirNext-Bold";
+  src: url("font/Avenir_Next/AvenirNextLTPro-Bold.otf") format("truetype");
+}
 
-  @font-face{
-    font-family: "AvenirNext-DemiBold";
-    src: url("font/Avenir_Next/AvenirNextLTPro-Demi.otf") format("truetype");
-  }
-  @font-face{
-    font-family: "AvenirNext-Medium";
-    src: url("font/Avenir_Next/AvenirNextLTPro-Medium.otf") format("truetype");
-  }
-  @font-face{
-    font-family: "AvenirNext-Regular";
-    src: url("font/Avenir_Next/AvenirNextLTPro-Regular.otf") format("truetype");
-  }
-  @font-face{
-    font-family: "AvenirNext-untralight";
-    src: url("font/Avenir_Next/AvenirNextLTPro-UltLt.otf") format("truetype");
-  }
+@font-face {
+  font-family: "AvenirNext-DemiBold";
+  src: url("font/Avenir_Next/AvenirNextLTPro-Demi.otf") format("truetype");
+}
+@font-face {
+  font-family: "AvenirNext-Medium";
+  src: url("font/Avenir_Next/AvenirNextLTPro-Medium.otf") format("truetype");
+}
+@font-face {
+  font-family: "AvenirNext-Regular";
+  src: url("font/Avenir_Next/AvenirNextLTPro-Regular.otf") format("truetype");
+}
+@font-face {
+  font-family: "AvenirNext-untralight";
+  src: url("font/Avenir_Next/AvenirNextLTPro-UltLt.otf") format("truetype");
+}
 
 #menu {
-    position: absolute;
-    width: 101px;
-    height: 1024px;
-    top: 0px;
-    overflow: visible;
-    fill: rgba(255, 255, 255, 1);
-    box-shadow: 0px 2px 40px rgba(16, 27, 79, 0.2);
-  }
-  .item_First
-  {
-    margin: 20px 0 0px 20px;
-  }
-  .item_First p{
-    opacity: 0.2;
-    left: 2.7rem;
-    position: absolute;
-    overflow: visible;
-    font-family: AvenirNext-DemiBold;
-    font-size: 30px;
-    color: rgba(77, 104, 193, 1);
-    padding-top: 0.25em;
-  }
-  .item_First img{
-    position: absolute;
-  }
-  .item_First a:hover p{
-    opacity: 1;
-    color: #fff;
-  }
-  .item_First a:hover img{
-    background-color: #1fca74;
-    border-radius: 9px;
-  }
+  position: absolute;
+  width: 101px;
+  height: 1024px;
+  top: 0px;
+  overflow: visible;
+  fill: rgba(255, 255, 255, 1);
+  box-shadow: 0px 2px 40px rgba(16, 27, 79, 0.2);
+}
+.item_First {
+  margin: 20px 0 0px 20px;
+}
+.item_First p {
+  opacity: 0.2;
+  left: 2.7rem;
+  position: absolute;
+  overflow: visible;
+  font-family: AvenirNext-DemiBold;
+  font-size: 30px;
+  color: rgba(77, 104, 193, 1);
+  padding-top: 0.25em;
+}
+.item_First img {
+  position: absolute;
+}
+.item_First a:hover p {
+  opacity: 1;
+  color: #fff;
+}
+.item_First a:hover img {
+  background-color: rgba(31, 202, 116, 1);
+  border-radius: 9px;
+}
 
-  
-  .imgShape{
-    position: absolute;
-    overflow: visible;
-    top: 10%;
-    margin: 20px 0 0 20px;
-  }
-  .Combined_Shape{
-    position: absolute;
-    overflow: visible;
-     left: 33.5%;
-     top: 13.3%;
-  }
-  #Combined_Shape
-  {
-    opacity: 0.7;
-    fill: #101b4f82;
-  }
-  .item_second a:hover .imgShape{
-    background-color: #28da81;
-    border-radius: 9px;
-  }
-  .item_second a:hover .Combined_Shape #Combined_Shape {
-    opacity: 1;
-    fill: #fff;
-  }
+.imgShape {
+  position: absolute;
+  overflow: visible;
+  top: 10%;
+  margin: 20px 0 0 20px;
+}
+.Combined_Shape {
+  position: absolute;
+  overflow: visible;
+  left: 33.5%;
+  top: 13.3%;
+}
+#Combined_Shape {
+  opacity: 0.7;
+  fill: #101b4f82;
+}
+.item_second a:hover .Rectangle #Rectangle {
+  opacity: 1;
+  fill: rgba(31, 202, 116, 1);
+}
+.item_second a:hover .Combined_Shape #Combined_Shape {
+  opacity: 1;
+  fill: #fff;
+}
 
+#Rectangle {
+  opacity: 0.1;
+  fill: rgba(77, 104, 193, 1);
 
+  width: 60.6px;
+  height: 60px;
+}
+.Rectangle {
+  position: absolute;
+  /* overflow: visible; */
+  width: 60.6px;
+  height: 60px;
+  left: 1.23rem;
+  top: 12%;
+  border-radius: 9px;
+}
