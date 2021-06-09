@@ -95,3 +95,56 @@
   top: 12%;
   border-radius: 9px;
 }
+
+
+
+.Messenger{
+  padding: 15px;
+  grid-template-columns: 100px auto;
+  height: 100vh;
+  /* paddingleft => grid-gap: 10px; */
+  display: grid;
+
+}
+.menu{
+
+  /* width: 100px;
+  height: 1024px; */
+  background-color: red;
+}
+.containerContent{
+ 
+  grid-template-rows: auto 2em;
+  /* background-color: rgb(4, 63, 24); */
+ 
+  display: grid;
+}
+.headerContent{
+  background-color: rgb(4, 255, 24);
+  grid-template-rows: 13% auto;
+  display: grid;
+}
+.homePage{
+  background-color: rgb(4, 121, 255);
+}
+.Inner{
+  background-color: rgb(255, 4, 109);
+  grid-template-columns: auto 14em;
+  display: grid;
+}
+.ChatBox{
+  background-color: blanchedalmond;
+  grid-template-rows: 4em auto;
+  display: grid;
+}
+.conversation{
+  background-color: coral;
+}
+.chatContent{
+  background-color: rgb(80, 162, 255);
+}
+.footer{
+  
+  background-color: red;
+ 
+}
