@@ -256,34 +256,331 @@
   color: #fff;
 }
 /* ================================= END MENU =================================*/
+
+/* ================================= CONTAINER CONTENT =================================*/
 .containerContent {
   grid-template-rows: auto 2em;
   display: grid;
 }
 .headerContent {
   background-color: rgb(4, 255, 24);
-  grid-template-rows: 13% auto;
+  grid-template-rows: 7% auto;
   display: grid;
-}
+} 
+/* HOME PAGE */
 .homePage {
-  background-color: rgb(4, 121, 255);
+  background-color: #1fca74;
+  display: grid;
+  grid-template-columns: auto 16em;
+}
+.hompageVerticalbar{
+  margin: 0 20px 0 35px;
+}
+.hompageVerticalbar span{
+  position: absolute;
+   width: 1px;
+  height: 40.459px;
+  opacity: 0.2;
+  fill: transparent;
+  background-color: rgba(16,76,45,1);
+  
+}
+.homepageImg{
+ padding: 0 0.5em 0 1em;
+}
+.homepageText a{
+  font-family: AvenirNext-Medium;
+  font-size: 18px;
+  color: #fff;
+
+}
+.homePage nav ul{
+  position: relative;
+  top: 1.3em;
+  float: right;
+  margin-bottom: 0px !important;
+  width: 100%;
+  text-align: right;
+}
+
+.homePage nav ul li a img{
+  filter: drop-shadow(0px 6px 8px rgba(16, 27, 79, 0.204));
+    width: 40px;
+    height: 40px;
+}
+.homepageIcon a{
+  color: #5b6075;
+}
+.homepageIcon{
+ padding:  0 1.5em 0 2.5em;
+}
+.homePage nav ul li {
+  display: inline;
+}
+.homePage nav ul li a{
+  text-decoration: none;
+}
+/* EXPERTISE*/
+.expertise
+{ 
+  position: relative;
+  background-color: #098446;
+}
+.expertiseContent{
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.textYouHave{
+  position: absolute;
+  font-size: 12px;
+  font-family: AvenirNext-Medium;
+  color: #fff;
+  opacity: 0.8;
+  width: 100%;
+  padding-bottom: 5px;
+}
+.textExpertise{
+  position: absolute;
+  font-size: 18px;
+  font-family:AvenirNext-Regular;
+  color: #fff;
+  top: 30%;
+  opacity: 1;
+}
+.progress{
+  position: relative;
+  border-radius: 10px;
+  background-color: #104c2d;
+  height: 6px;
+  position: relative;
+  top:85%;
+}
+.expertiseIconRight{
+position: absolute;
+left: 92%;
+top: 30%;
+width: 10px;
+margin: auto;
 }
 .Inner {
   background-color: rgb(255, 4, 109);
-  grid-template-columns: auto 14em;
+  grid-template-columns: auto 16em;
   display: grid;
 }
+
 .ChatBox {
-  background-color: blanchedalmond;
   grid-template-rows: 4em auto;
   display: grid;
 }
+
+.header{
+  background-color: #fff;
+  display: flex;
+}
+.headerImg{
+ 
+  padding: 1em 0.5em 0 2em;
+}
+.headerText{
+  flex: 1.5;
+  padding-top: 1em;
+}
+.headerIcon{
+  flex: 1;
+  padding-top: 1em;
+}
+.headerCompany{
+  flex:1;
+  margin-top: -0.4em;
+}
+.headerOffer{
+  flex: 1;
+  margin-top: -0.4em;
+}
+.headerIconClose{
+  flex: 0.5;
+  padding: 1em 1.5em 0 0;
+  text-align: right;
+}
+.headerText a{
+  font-size: 18px;
+  font-family:AvenirNext-Regular;
+  color: #101b4f;
+}
+
+.headerIcon a {
+  color: rgba(16,27,79,1);
+  opacity: 0.3;
+  padding-right: 2em;
+}
+
+.headerImg img{
+  filter: drop-shadow(0px 6px 8px rgba(16, 27, 79, 0.204));
+  width: 40px;
+  height: 40px;
+}
+.headerCompany{
+  display: inline-grid;
+  grid-template-rows: 50% 50%;
+}
+.headerCompanyText{
+    font-family: AvenirNext-Medium;
+    font-size: 12px;
+    color: #9b9b9b;
+    padding-top: 1.5em;
+}
+ .headerOfferText{
+  font-family: AvenirNext-Medium;
+  font-size: 12px;
+  color: #9b9b9b;
+  padding-top: 1.5em;
+ }
+.headerCompanyInvision {
+    white-space: nowrap;
+    text-align: left;
+    font-family: AvenirNext-Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(16,27,79,1);
+}
+ .headerOfferAdvertising{
+  white-space: nowrap;
+  text-align: left;
+  font-family: AvenirNext-Medium;
+
+  font-size: 14px;
+  color: rgba(16,27,79,1);
+}
+ .headerOffer{
+  display: inline-grid;
+  grid-template-rows: 50% 50%;
+}
+
 .conversation {
   background-color: coral;
 }
 .chatContent {
-  background-color: rgb(80, 162, 255);
+  background-color:#eef0f9;
+  display: grid;
+  grid-template-rows: auto 25%;
 }
+.chatContentText{
+  
+  padding: 1em 0 0 2em;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+
+
+
+/* ====== */
+.message {
+  display: flex;
+  flex-direction: column;
+}
+.messageTop {
+  display: flex;
+}
+.messageImg {
+  object-fit: cover;
+  filter: drop-shadow(0px 6px 8px rgba(16, 27, 79, 0.204));
+
+  width: 40px;
+  height: 40px;
+}
+.messageText {
+  padding: 10px;
+  border-radius: 0px 15px 15px 15px;
+  background-color: #1fca74;
+  color: #fff;
+  width: 350px;
+  font-family: AvenirNext-Medium;
+  font-size: 14px;
+}
+.messageBottom {
+  font-style: 12px;
+  margin-top: 10px;
+  font-size: 14px;
+    color: rgba(155,155,155,1);
+}
+.message.own {
+  align-items: flex-end;
+}
+.message.own .messageText {
+  background-color: rgb(245, 241, 241);
+  color: black;
+}
+
+
+.message1 {
+ 
+
+  position: relative;
+    width: 700px;
+    height: 141px;
+  
+}
+.messageTop1 {
+ position: relative;
+ 
+}
+.messageImg1 {
+  position: relative;
+  object-fit: cover;
+  filter: drop-shadow(0px 6px 8px rgba(16, 27, 79, 0.204));
+
+  width: 40px;
+  height: 40px;
+}
+.messageText1 {
+  position: absolute;
+  padding: 10px;
+  border-radius: 0px 15px 15px 15px;
+  background-color: #1fca74;
+  color: #fff;
+  width: 350px;
+  font-family: AvenirNext-Medium;
+  font-size: 14px;
+  top: 6%;
+    left: 7%;
+}
+.messageBottom1 {
+ 
+    position: absolute;
+ 
+    font-size: 14px;
+    color: rgba(155,155,155,1);
+    top: 15%;
+    left: 60%;
+    width: 100px;
+}
+.message1.own .messageTop1 .messageImg1{
+  left:93%;
+  top:10%;
+}
+.message1.own  .messageTop1  .messageText1{
+  left:41%;
+  top:10%;
+  background-color: #788998;
+  border-radius: 15px 0px 15px 15px;
+}
+.message1.own  .messageTop1  .messageBottom1{
+  left:31%;
+  top:10%;
+
+}
+.message.own {
+  align-items: flex-end;
+}
+.message.own .messageText {
+  background-color: rgb(245, 241, 241);
+  color: black;
+}
+/* ====== */
 .footer {
   background-color: rgba(91, 96, 117, 1);
   grid-template-columns: 25% auto;
