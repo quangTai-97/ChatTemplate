@@ -31,11 +31,18 @@
           $(selector).removeClass("activeShape");
           $(this).addClass("activeShape");
         });
+
+        var conversation = ".ItemFriend a";
+        $(conversation).on("click", function () {
+          $(conversation).removeClass("ItemFriendActive");
+          $(this).addClass("ItemFriendActive");
+        });
       });
       //]]>
     </script>
     <div class="container">
       <div class="Messenger">
+
         <div class="menu">
           <div class="item navMenu">
             <a href="#" class="active">
@@ -167,7 +174,9 @@
         </div>
 
         <div class="containerContent">
+
           <div class="headerContent">
+
             <div class="homePage">
               <nav>
                 <ul>
@@ -209,6 +218,7 @@
                 </div>
               </div>
             </div>
+
             <div class="Inner">
               <div class="ChatBox">
                 <div class="header">
@@ -375,6 +385,35 @@
                         <div class="messageBottom1">08:44 am</div>
                       </div>
                     </div>
+
+                    <div class= "message">
+                      <div class="messageTop">
+                        <img
+                        class="messageImg"
+                          src="css/image/Oval_Copy_2_by.png"
+                          alt=""
+                        />
+                        <p class="messageText">11111</p>
+                        <div class="messageBottom">giờ</div>
+                      </div>
+                     
+                    </div>
+                    <div class= "message own">
+                     
+                    
+                      <div class="messageTop">
+                        <div class="messageBottom">giờ</div>
+                        <p class="messageText">11111</p>
+                        <img
+                        class="messageImg"
+                          src="css/image/Oval_Copy_2_by.png"
+                          alt=""
+                        />
+                    
+                     
+                      </div>
+                     
+                    </div>
                   </div>
 
                   <div class="chatContentInput">
@@ -405,17 +444,7 @@
                 </div>
               </div>
               <div class="conversation">
-                <svg class="Rectangle_3_c">
-                  <rect
-                    id="Rectangle_3_c"
-                    rx="0"
-                    ry="0"
-                    x="0"
-                    y="0"
-                    width="307"
-                    height="1100.02"
-                  ></rect>
-                </svg>
+              
                 <div class="convartionMain">
                   <div class="conversationSearch">
                     <div class="buttonSearch">
@@ -436,84 +465,149 @@
                     />
                   </div>
                   <div class="conversationFriend">
+                  
+                    <span class="LineTop"></span>
                     <div class="ItemFriend">
-                      <svg class="Line_dc">
-                        <path
-                          id="Line_dc"
-                          d="M 0 1 L 266.066650390625 1"
-                        ></path>
-                      </svg>
+                     
+                      <a href="#" class="ItemFriendActive">
                       <div class="ItemFriendImg">
                         <img
                           id="Oval_c"
                           src="css/image/Oval_c.png"
-                          srcset="Oval_c.png 1x, Oval_c@2x.png 2x"
+                          alt="Oval_c.png 1x, Oval_c@2x.png 2x"
                         />
                       </div>
-
-                      <div class="NameAndHour">
-                        <div class="Ricardo_Lopez">
-                          <span>Ricardo Lopez</span>
+                      <div class="ItemFriendText">
+                        <div class="NameAndHour">
+                          <div class="Ricardo_Lopez">
+                            <span>Ricardo Lopez</span>
+                          </div>
+                          <div class="ID1123_am">
+                            <span>11:23 am</span>
+                          </div>
                         </div>
-                        <div class="ID1123_am">
-                          <span>11:23 am</span>
+  
+                        <div class="Adobe">
+                          <span>Adobe</span>
+                        </div>
+                       
+                        <div class="Three">
+                          <span>Three Ways To Get Travel Disco…</span>
                         </div>
                       </div>
-
-                      <div class="Adobe">
-                        <span>Adobe</span>
-                      </div>
-                      <br />
-                      <div class="Three">
-                        <span>Three Ways To Get Travel Disco…</span>
-                      </div>
-
-                      <svg class="Line_Copy_dd">
-                        <path
-                          id="Line_Copy_dd"
-                          d="M 0 1 L 266.066650390625 1"
-                        ></path>
-                      </svg>
+                     
+                    </a>
+                    <span class="LineBottom"></span>
+                     
+                    </svg>
                     </div>
+
                     <div class="ItemFriend">
-                      <svg class="Line_dc">
-                        <path
-                          id="Line_dc"
-                          d="M 0 1 L 266.066650390625 1"
-                        ></path>
-                      </svg>
+                     
+                      <a href="#" class="">
                       <div class="ItemFriendImg">
                         <img
                           id="Oval_c"
                           src="css/image/Oval_c.png"
-                          srcset="Oval_c.png 1x, Oval_c@2x.png 2x"
+                          alt="Oval_c.png 1x, Oval_c@2x.png 2x"
                         />
                       </div>
-
-                      <div class="NameAndHour">
-                        <div class="Ricardo_Lopez">
-                          <span>Ricardo Lopez</span>
+                      <div class="ItemFriendText">
+                        <div class="NameAndHour">
+                          <div class="Ricardo_Lopez">
+                            <span>Ricardo Lopez</span>
+                          </div>
+                          <div class="ID1123_am">
+                            <span>11:23 am</span>
+                          </div>
                         </div>
-                        <div class="ID1123_am">
-                          <span>11:23 am</span>
+  
+                        <div class="Adobe">
+                          <span>Adobe</span>
+                        </div>
+                       
+                        <div class="Three">
+                          <span>Three Ways To Get Travel Disco…</span>
                         </div>
                       </div>
-
-                      <div class="Adobe">
-                        <span>Adobe</span>
-                      </div>
-                      <br />
-                      <div class="Three">
-                        <span>Three Ways To Get Travel Disco…</span>
-                      </div>
-
-                      <svg class="Line_Copy_dd">
-                        <path
-                          id="Line_Copy_dd"
-                          d="M 0 1 L 266.066650390625 1"
-                        ></path>
-                      </svg>
+                     
+                    </a>
+                    <span class="LineBottom"></span>
+                     
+                    </svg>
                     </div>
+                  
+                    <div class="ItemFriend">
+                     
+                      <a href="#" class="">
+                      <div class="ItemFriendImg">
+                        <img
+                          id="Oval_c"
+                          src="css/image/Oval_c.png"
+                          alt="Oval_c.png 1x, Oval_c@2x.png 2x"
+                        />
+                      </div>
+                      <div class="ItemFriendText">
+                        <div class="NameAndHour">
+                          <div class="Ricardo_Lopez">
+                            <span>Ricardo Lopez</span>
+                          </div>
+                          <div class="ID1123_am">
+                            <span>11:23 am</span>
+                          </div>
+                        </div>
+  
+                        <div class="Adobe">
+                          <span>Adobe</span>
+                        </div>
+                       
+                        <div class="Three">
+                          <span>Three Ways To Get Travel Disco…</span>
+                        </div>
+                      </div>
+                     
+                    </a>
+                    <span class="LineBottom"></span>
+                     
+                    </svg>
+                    </div>
+
+                    <div class="ItemFriend">
+                     
+                      <a href="#" class="">
+                      <div class="ItemFriendImg">
+                        <img
+                          id="Oval_c"
+                          src="css/image/Oval_c.png"
+                          alt="Oval_c.png 1x, Oval_c@2x.png 2x"
+                        />
+                      </div>
+                      <div class="ItemFriendText">
+                        <div class="NameAndHour">
+                          <div class="Ricardo_Lopez">
+                            <span>Ricardo Lopez</span>
+                          </div>
+                          <div class="ID1123_am">
+                            <span>11:23 am</span>
+                          </div>
+                        </div>
+  
+                        <div class="Adobe">
+                          <span>Adobe</span>
+                        </div>
+                       
+                        <div class="Three">
+                          <span>Three Ways To Get Travel Disco…</span>
+                        </div>
+                      </div>
+                     
+                    </a>
+                    <span class="LineBottom"></span>
+                     
+                    </svg>
+                    </div>
+                    
+
                   </div>
                 </div>
               </div>
